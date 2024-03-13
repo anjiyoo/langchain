@@ -14,5 +14,3 @@ llm = ChatOpenAI(api_key=openai_api_key)
 # langchain 모델 사용 (신규 데이터에 대해선 정보가 업데이트 안됨)
 output = llm.invoke("2024년 청년 지원 정책에 대하여 알려줘")
 print(output)
-
-
